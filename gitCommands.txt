@@ -161,4 +161,20 @@ then
 
 git push origin branch-name
 
+###### To delete .git
 
+rm -rf .git
+
+Source : Youtube git and github crash courses
+
+https://www.youtube.com/watch?v=SWYqp7iY_Tc
+
+https://www.youtube.com/watch?v=RGOj5yH7evk&t=147s
+
+https://www.youtube.com/watch?v=xuB1Id2Wxak
+
+https://www.edureka.co/blog/git-commands-with-example/#git%20config
+
+https://dev.to/mariorodeghiero/git-cheatsheet-2imn
+
+https://www.w3docs.com/snippets/git/how-to-delete-git-repository-created-with-init.html
