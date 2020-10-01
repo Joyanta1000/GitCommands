@@ -166,7 +166,9 @@ git push origin branch-name
 rm -rf .git
 
 ###### Forking
+
 ## After cloning
+
 git remote -v (to check)
 
 git remote add upstream https://..... (to add a new remote repo address)
