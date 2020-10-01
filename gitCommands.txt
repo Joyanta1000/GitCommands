@@ -1,6 +1,6 @@
 ###### Git Commands
 
-touch file-name (to create a fle)
+touch file-name (to create a file)
 
 git init (to intialize a git repository) (.git file will be created by this)
 
