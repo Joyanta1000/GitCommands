@@ -175,6 +175,10 @@ git remote -v (to check)
 
 git remote add upstream https://..... (to add a new remote repo address)
 
+## Migrating one specific table
+
+php artisan migrate:refresh --path=database/migrations/filename.php
+
 then done .....
 
 Source : Youtube git and github crash courses
