@@ -179,6 +179,14 @@ git remote add upstream https://..... (to add a new remote repo address)
 
 php artisan migrate:refresh --path=database/migrations/filename.php
 
+####New and old php version problem
+
+composer clear-cache
+composer self-update
+composer update --ignore-platform-reqs
+or
+composer install --ignore-platform-reqs
+
 then done .....
 
 Source : Youtube git and github crash courses
