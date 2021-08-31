@@ -167,6 +167,16 @@ git push origin branch-name
 
 rm -rf .git
 
+###### To delete any branch
+
+git push --delete origin main
+
+###### To remove directory from repository
+
+git rm -r --cached FolderName
+git commit -m "Removed folder from repository"
+git push origin master
+
 ###### Forking
 
 ## After cloning
