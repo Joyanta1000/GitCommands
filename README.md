@@ -212,7 +212,7 @@ php artisan make:model ModelName -a
 [
 Model created successfully.
 Factory created successfully.
-Created Migration: 2021_12_02_232247_create_national_id_cards_table
+Created Migration: 2021_12_02_232247_create_model_name_cards_table
 Seeder created successfully.
 Request created successfully.
 Request created successfully.
