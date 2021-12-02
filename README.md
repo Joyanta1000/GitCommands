@@ -204,6 +204,23 @@ composer install --ignore-platform-reqs
 
 then done .....
 
+#### To create all by calling model
+
+php artisan make:model ModelName -a
+
+Result:
+
+[
+Model created successfully.
+Factory created successfully.
+Created Migration: 2021_12_02_232247_create_national_id_cards_table
+Seeder created successfully.
+Request created successfully.
+Request created successfully.
+Controller created successfully.
+Policy created successfully.
+]
+
 Source : Youtube git and github crash courses
 
 https://www.youtube.com/watch?v=SWYqp7iY_Tc
