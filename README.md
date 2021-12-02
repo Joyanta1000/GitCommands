@@ -208,8 +208,7 @@ then done .....
 
 php artisan make:model ModelName -a
 
-Result:
-
+**Result:
 [
 Model created successfully.
 Factory created successfully.
