@@ -204,6 +204,27 @@ composer install --ignore-platform-reqs
 
 then done .....
 
+#### How to add new column without effecting the existing tables data
+
+As per the docs, you just need to create a separate migration to create the new column.
+
+Create the migration
+
+php artisan make:migration add_description_to_foo
+
+Then just set the migration up with the details you want to add, e.g:
+
+Schema::table('foo', function ($table) {
+    $table->text('description');
+});
+Then you can just migrate it:
+
+php artisan migrate
+
+This will allow you to add a column without resetting or rolling back your tables, and thus prevent you from losing your data.
+
+
+
 #### To create all by calling model
 
 php artisan make:model ModelName -a
