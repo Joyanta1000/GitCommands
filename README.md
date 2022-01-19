@@ -241,6 +241,12 @@ Controller created successfully.
 Policy created successfully.
 ]
 
+# specify port 
+$ php artisan serve --port=8080
+
+# specify host and port
+$ php artisan serve --host=localhost --port=8080
+
 Source : Youtube git and github crash courses
 
 https://www.youtube.com/watch?v=SWYqp7iY_Tc
