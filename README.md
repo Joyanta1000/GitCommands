@@ -223,7 +223,9 @@ php artisan migrate
 
 This will allow you to add a column without resetting or rolling back your tables, and thus prevent you from losing your data.
 
+#### How to reset, revert, and return to previous states in Git
 
+https://opensource.com/article/18/6/git-reset-revert-rebase-commands
 
 #### To create all by calling model
 
