@@ -249,6 +249,11 @@ $ php artisan serve --port=8080
 # specify host and port
 $ php artisan serve --host=localhost --port=8080
 
+# to know the git repository's url
+
+git config --get remote.origin.url
+
+
 Source : Youtube git and github crash courses
 
 https://www.youtube.com/watch?v=SWYqp7iY_Tc
