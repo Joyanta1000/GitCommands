@@ -210,7 +210,7 @@ As per the docs, you just need to create a separate migration to create the new 
 
 Create the migration
 
-php artisan make:migration add_description_to_foo
+php artisan make:migration add_paid_to_users_table --table=users
 
 Then just set the migration up with the details you want to add, e.g:
 
